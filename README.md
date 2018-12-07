@@ -14,15 +14,15 @@ sudo apt-get install git build-essential libssl-dev libboost-all-dev libqrencode
 
 ## Compiling USDXd (Console)
 ```
-git clone https://github.com/onix-project/usdxcoin.git
+git clone https://github.com/USDX/USDX-Coin.git
 cd usdxcoin/src
 make -f makefile.unix
 ```
 
 ## Compiling USDX-qt (Graphical Interface)
 ```
-git clone https://github.com/onix-project/usdxcoin.git
+git clone https://github.com/USDX/USDX-Coin.git
 cd usdxcoin
-qmake USE_UPNP=- USE_QRCODE=0 USE_IPV6=0 
+qmake 
 make
 ```
